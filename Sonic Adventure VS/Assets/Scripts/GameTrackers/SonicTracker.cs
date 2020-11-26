@@ -2,17 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SonicTracker : MonoBehaviour
+namespace GameManager
 {
-    // Start is called before the first frame update
-    void Start()
+    public class SonicTracker : MonoBehaviour
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        private int _ringCount;
+        public int ringCount{
+            get{
+                return _ringCount;
+            }
+            set{
+                _ringCount += 1;
+                if (_ringCount >= 100)
+                {
+                    _lifeCount ++;
+                }
+            }
+        }
+        private int _lifeCount;
     }
 }

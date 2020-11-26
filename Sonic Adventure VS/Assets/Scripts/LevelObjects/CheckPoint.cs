@@ -2,20 +2,32 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CheckPoint : LevelObject_BASE
+namespace GameManager
 {
-    protected override void OnTriggerEnter(Collider player)
+    public class CheckPoint : LevelObject_BASE
     {
-        base.OnTriggerEnter(player);
+        private LevelTracker _levelTracker;
+        private bool _isCheckPointActive = false;
 
-        if (isPlayer)
+        void Start()
         {
-            SetCheckPoint();
+            _levelTracker = FindObjectOfType<LevelTracker>();
         }
-    }
 
-    void SetCheckPoint()
-    {
-        
+        protected override void OnTriggerEnter(Collider player)
+        {
+            base.OnTriggerEnter(player);
+
+            if (isPlayer && !_isCheckPointActive)
+            {
+                SetCheckPoint();
+                _isCheckPointActive = true;
+            }
+        }
+
+        void SetCheckPoint()
+        {
+            _levelTracker.lastCheckPoint = this;
+        }
     }
 }
