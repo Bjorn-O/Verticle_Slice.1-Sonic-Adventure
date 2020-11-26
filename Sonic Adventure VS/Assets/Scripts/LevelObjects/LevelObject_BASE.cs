@@ -5,6 +5,7 @@ using UnityEngine;
 public class LevelObject_BASE : MonoBehaviour
 {
     [SerializeField] protected Collider rb;
+    [SerializeField] protected AudioSource[] _soundEffect;
     protected bool isPlayer;
     protected GameManager.SonicTracker sonicTracker;
 

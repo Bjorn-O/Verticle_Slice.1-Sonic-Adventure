@@ -26,9 +26,7 @@ namespace GameManager
         void Update()
         {
             _time += Time.deltaTime;
-            TimeFormatter(_time);
-            Debug.Log(timeText);
-            
+            TimeFormatter(_time);            
         }
 
         void TimeFormatter(float fTime)

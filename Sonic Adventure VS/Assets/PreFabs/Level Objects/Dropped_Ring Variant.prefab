@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &2033463144345581420
+--- !u!1001 &8314242215461672211
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -13,7 +13,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 547310466012562292, guid: 0ce57d83344841e4493215bd92400eb3, type: 3}
       propertyPath: m_Name
-      value: Dropped_Ring Variant
+      value: Dropped_Ring
       objectReference: {fileID: 0}
     - target: {fileID: 3919929696250659139, guid: 0ce57d83344841e4493215bd92400eb3, type: 3}
       propertyPath: m_RootOrder
