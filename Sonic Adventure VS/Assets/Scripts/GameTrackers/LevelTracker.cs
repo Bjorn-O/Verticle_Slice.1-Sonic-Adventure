@@ -6,11 +6,10 @@ namespace GameManager
 {
     public class LevelTracker : MonoBehaviour
     {
-        [SerializeField] CheckPoint _lastCheckPoint;
-        [SerializeField] GameObject _playerCharacter;
-        [SerializeField] Transform _startLocation;
-        public CheckPoint lastCheckPoint
-        {
+        [SerializeField] private GameObject _playerCharacter;
+        [SerializeField] private Transform _startLocation;
+        private CheckPoint _lastCheckPoint;
+        public CheckPoint lastCheckPoint{
             get {
                 return _lastCheckPoint;
             }
@@ -43,7 +42,7 @@ namespace GameManager
             TimeFormatter(_time);            
         }
 
-        void Respawn()
+        IEnumerator Respawn()
         {
             // Take control away from _playerCharacter
             // Transition screen to black
@@ -52,6 +51,7 @@ namespace GameManager
             // Fade the screen back in
             // Give player Control of _playerCharacter
             // Start the timer
+            return null;
         }
 
         void TimeFormatter(float fTime)

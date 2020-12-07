@@ -4,22 +4,18 @@ using UnityEngine;
 
 public class LevelObject_BASE : MonoBehaviour
 {
-    [SerializeField] protected Collider rb;
     [SerializeField] protected AudioSource[] _soundEffect;
-    protected bool isPlayer;
-    protected GameManager.SonicTracker sonicTracker;
 
-    void Start()
+    protected virtual void OnTriggerEnter(Collider other)
     {
-        sonicTracker = FindObjectOfType<GameManager.SonicTracker>();
+        if (other.gameObject.tag == "Sonic")
+        {
+            OnPlayerInteraction(other.gameObject);
+        }
     }
 
-    protected virtual void OnTriggerEnter(Collider player)
+    protected virtual void OnPlayerInteraction(GameObject player)
     {
-        if (player == sonicTracker)
-        {
-            Debug.Log(player.name + " Passed through " + this.name);
-            isPlayer = true;
-        }
+        print("This is one interaction");
     }
 }

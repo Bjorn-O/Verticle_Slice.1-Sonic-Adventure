@@ -8,34 +8,23 @@ namespace GameManager
     {
         [SerializeField] AudioSource[] _soundEffects;
         [SerializeField] GameObject _droppedRing;
-        private int _ringCount;
+        [SerializeField] private int _ringCount;
         public int ringCount{
             get{
                 return _ringCount;
             }
             set{
-                if (value < 0)
-                {
-                    DropRings(_ringCount);
-                }
-                _ringCount += value;
-                _ringsToExtraLife += value;
+                _ringCount = value;
             }
         }
-        private int _ringsToExtraLife{
+        private int _ringsToExtraLife;
+        public int ringsToExtraLife{
             get{
                 return _ringsToExtraLife;
             }
             set{
-                _ringsToExtraLife += value;
-                if (_ringsToExtraLife >= 100)
-                {
-                    lifeCount++;
-                    _ringsToExtraLife -= 100;
-                } else if (_ringsToExtraLife < 0)
-                {
-                    _ringsToExtraLife = 0;
-                }
+                print(value);
+                _ringsToExtraLife = value;
             }
         }
         private int _lifeCount;
@@ -44,25 +33,46 @@ namespace GameManager
                 return _lifeCount;
             }
             set{
-                switch (value)
-                {
-                    case 1:
-                        _lifeCount += value;
-                        _soundEffects[0].Play();
-                        break;
-                    case -1:
-                        if (_lifeCount == 0)
-                        {
-                            // Call onto LevelTracker.GameOver();
-                        }
-                        _lifeCount += value;
-                        break;
-                    default:
-                    break;
-                }
+                _lifeCount = value;
             }
         }
-
+        private float _angle;
+        void Update()
+        {
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                DropRings(ringCount);
+            }
+        }
+        public void setRings(int value)
+        {
+            ringCount += value;
+            ringsToExtraLife += value;
+            print(ringsToExtraLife);
+            if (ringsToExtraLife >= 100)
+            {
+                ringsToExtraLife -= 100;
+                SetLife(1);
+            } else if (ringsToExtraLife < 0)
+            {
+                ringsToExtraLife = 0;
+            }
+            print(value);
+        }
+        void SetLife(int value)
+        {
+            print("I'm setting life");
+            if (value > 0)
+            {
+                print("I'm gonna play a jingle");
+                _soundEffects[0].Play();
+            }
+            lifeCount += value;
+            if (lifeCount < 0)
+            {
+                //Initiate Game-over
+            }
+        }
         void GetHurt()
         {
             if (ringCount > 0)
@@ -71,21 +81,24 @@ namespace GameManager
             }
             else
             {
-                PlayerDeath();
+                SetLife(-1);
+                //Initiate Respawn
+            }
+        }
+        void DropRings(int ringsDropped)
+        {
+            if (ringsDropped > 20)
+            {
+                ringsDropped = 20;
+            }
+            setRings(-ringCount);
+            float launchAngle = 360 / ringsDropped;
+            for (int i = 0; i < ringsDropped; i++)
+            {
+                Instantiate(_droppedRing, transform.position, Quaternion.Euler(0,_angle,0));
+                _angle += launchAngle;
             }
         }
 
-        void DropRings(int ringsDropped)
-        {
-            // Check if the amount of rings is above 20
-            // If not, calculate 360/ringcount to get the angle of firing in a circle.
-            // Instantiate the amount of rings each in their own direction
-            // Note to self, how do I instantly instantiate each ring in a different direction with force? Maybe put force in the awake function but that won't help the direction.
-        }
-
-        void PlayerDeath()
-        {
-            // Call onto LevelTracker.Respawn
-        }
     }
 }

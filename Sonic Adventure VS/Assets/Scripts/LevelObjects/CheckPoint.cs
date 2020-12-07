@@ -7,18 +7,17 @@ namespace GameManager
     public class CheckPoint : LevelObject_BASE
     {
         private LevelTracker _levelTracker;
-        private bool _isCheckPointActive = false;
+        private bool _isCheckPointActive;
 
         void Start()
         {
             _levelTracker = FindObjectOfType<LevelTracker>();
         }
 
-        protected override void OnTriggerEnter(Collider player)
+        protected override void OnPlayerInteraction(GameObject player)
         {
-            base.OnTriggerEnter(player);
-
-            if (isPlayer && !_isCheckPointActive)
+            base.OnPlayerInteraction(player);
+            if (!_isCheckPointActive)
             {
                 SetCheckPoint();
                 _isCheckPointActive = true;

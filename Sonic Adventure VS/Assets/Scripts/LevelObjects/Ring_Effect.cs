@@ -6,6 +6,6 @@ public class Ring_Effect : MonoBehaviour
 {
     void Awake()
     {
-        Destroy(this.gameObject, 1000f);
+        Destroy(this.gameObject, .810f);
     }
 }
