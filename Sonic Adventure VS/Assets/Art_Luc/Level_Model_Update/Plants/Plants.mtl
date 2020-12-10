@@ -1,0 +1,1592 @@
+newmtl EmeraldCoast_1:material_B8BDA4
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd sea1_27.png
+map_Ka sea1_27.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_B8BDB8
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd sea1_11.png
+map_Ka sea1_11.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_B8BDCC
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd sea1_32.png
+map_Ka sea1_32.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_B8BDE0
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd sea1_35.png
+map_Ka sea1_35.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BB3C6C
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m64_cos001.png
+map_Ka m64_cos001.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BB3C58
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m64_cos003.png
+map_Ka m64_cos003.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BB7A30
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m256_cos003.png
+map_Ka m256_cos003.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BB62F4
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m256_cos003.png
+map_Ka m256_cos003.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BB84AC
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m64_cos004.png
+map_Ka m64_cos004.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BB84C0
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m64_cos003.png
+map_Ka m64_cos003.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BB84D4
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m64_cos002.png
+map_Ka m64_cos002.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BB845C
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m256_cos003.png
+map_Ka m256_cos003.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BB8434
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m256_cos003.png
+map_Ka m256_cos003.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BB8448
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m256_cos003.png
+map_Ka m256_cos003.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BB8470
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m256_cos003.png
+map_Ka m256_cos003.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BB8484
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m256_cos003.png
+map_Ka m256_cos003.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BB8498
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m64_cos005.png
+map_Ka m64_cos005.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BBA1A4
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m64_cos004.png
+map_Ka m64_cos004.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BBA1B8
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m64_cos004.png
+map_Ka m64_cos004.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BBA1CC
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m64_cos005.png
+map_Ka m64_cos005.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BBA1E0
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m64_cos005.png
+map_Ka m64_cos005.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BBA1F4
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m64_cos003.png
+map_Ka m64_cos003.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BBA17C
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m256_cos003.png
+map_Ka m256_cos003.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BBA21C
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m64_cos003.png
+map_Ka m64_cos003.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BBA140
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m128_cos006.png
+map_Ka m128_cos006.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BBA154
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m256_cos003.png
+map_Ka m256_cos003.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BBA168
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m256_cos003.png
+map_Ka m256_cos003.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BBA190
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m64_cos001.png
+map_Ka m64_cos001.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BBA208
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m64_cos003.png
+map_Ka m64_cos003.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BBA230
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m64_cos001.png
+map_Ka m64_cos001.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BBB2BC
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m64_cos001.png
+map_Ka m64_cos001.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BBB2D0
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m256_cos003.png
+map_Ka m256_cos003.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BBB2E4
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m256_cos003.png
+map_Ka m256_cos003.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BBB2F8
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m64_cos003.png
+map_Ka m64_cos003.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BBB30C
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m256_cos003.png
+map_Ka m256_cos003.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BBB320
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m64_cos004.png
+map_Ka m64_cos004.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BBB334
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m64_cos005.png
+map_Ka m64_cos005.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BBC6A4
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd sea1_32.png
+map_Ka sea1_32.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BBC6B8
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd sea1_32.png
+map_Ka sea1_32.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BBC6CC
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m64_cos009.png
+map_Ka m64_cos009.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BBC6E0
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m64_cos015.png
+map_Ka m64_cos015.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BBC62C
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m256_cos003.png
+map_Ka m256_cos003.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BBC67C
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m64_cos009.png
+map_Ka m64_cos009.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BBC640
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd sea1_27.png
+map_Ka sea1_27.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BBC654
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m128_cos006.png
+map_Ka m128_cos006.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BBC668
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m128_cos015.png
+map_Ka m128_cos015.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BBC690
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd sea1_11.png
+map_Ka sea1_11.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BBDF0C
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m256_cos003.png
+map_Ka m256_cos003.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BC87C8
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m128_cos015.png
+map_Ka m128_cos015.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BC87DC
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m256_cos003.png
+map_Ka m256_cos003.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BC87F0
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m256_cos003.png
+map_Ka m256_cos003.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BC882C
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m128_cos015.png
+map_Ka m128_cos015.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BC8804
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m128_cos004.png
+map_Ka m128_cos004.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BC8818
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m128_cos005.png
+map_Ka m128_cos005.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BC8840
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m128_cos006.png
+map_Ka m128_cos006.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BCA5AC
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m128_cos015.png
+map_Ka m128_cos015.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BCA5C0
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m128_cos006.png
+map_Ka m128_cos006.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BCA5D4
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m128_cos008.png
+map_Ka m128_cos008.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BCA5E8
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m128_cos005.png
+map_Ka m128_cos005.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BCA5FC
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m64_cos015.png
+map_Ka m64_cos015.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BCA55C
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m256_cos003.png
+map_Ka m256_cos003.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BCA570
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m256_cos003.png
+map_Ka m256_cos003.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BCA584
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m256_cos003.png
+map_Ka m256_cos003.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BCA598
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m128_cos004.png
+map_Ka m128_cos004.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BCF094
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m128_cos008.png
+map_Ka m128_cos008.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BCF0A8
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m64_cos012.png
+map_Ka m64_cos012.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BCF0BC
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m64_cos014.png
+map_Ka m64_cos014.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BCF0D0
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd sea1_35.png
+map_Ka sea1_35.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BCF0E4
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m128_cos006.png
+map_Ka m128_cos006.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BCF0F8
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m128_cos006.png
+map_Ka m128_cos006.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BCF10C
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m128_cos006.png
+map_Ka m128_cos006.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BCF15C
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m64_cos009.png
+map_Ka m64_cos009.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BCF120
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m128_cos015.png
+map_Ka m128_cos015.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BCF134
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m64_cos014.png
+map_Ka m64_cos014.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BCF148
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m128_cos006.png
+map_Ka m128_cos006.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BCF170
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd sea1_11.png
+map_Ka sea1_11.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BCF184
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd sea1_11.png
+map_Ka sea1_11.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BCF198
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m64_cos015.png
+map_Ka m64_cos015.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BD84AC
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m256_cos003.png
+map_Ka m256_cos003.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BD84C0
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m256_cos003.png
+map_Ka m256_cos003.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BD84D4
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m256_cos003.png
+map_Ka m256_cos003.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BD84E8
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m256_cos003.png
+map_Ka m256_cos003.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BD84FC
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m256_cos003.png
+map_Ka m256_cos003.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BD85B0
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m128_cos006.png
+map_Ka m128_cos006.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BD85C4
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m128_cos006.png
+map_Ka m128_cos006.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BD854C
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m256_cos003.png
+map_Ka m256_cos003.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BD859C
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m64_cos015.png
+map_Ka m64_cos015.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BD6398
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd sea1_16.png
+map_Ka sea1_16.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BD8510
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m256_cos003.png
+map_Ka m256_cos003.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BD8524
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m64_cos012.png
+map_Ka m64_cos012.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BD8538
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m256_cos003.png
+map_Ka m256_cos003.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BD8560
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m256_cos003.png
+map_Ka m256_cos003.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BD8574
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m128_cos006.png
+map_Ka m128_cos006.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BD8588
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m256_cos003.png
+map_Ka m256_cos003.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BDE948
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m256_cos003.png
+map_Ka m256_cos003.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BE03A4
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m128_cos005.png
+map_Ka m128_cos005.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BE03B8
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m128_cos014.png
+map_Ka m128_cos014.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BE032C
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m256_cos003.png
+map_Ka m256_cos003.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BE037C
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m64_cos015.png
+map_Ka m64_cos015.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BE0318
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m128_cos008.png
+map_Ka m128_cos008.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BE0340
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m256_cos003.png
+map_Ka m256_cos003.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BE0354
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m256_cos003.png
+map_Ka m256_cos003.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BE0368
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m64_cos012.png
+map_Ka m64_cos012.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BE0390
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m128_cos014.png
+map_Ka m128_cos014.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BEBEB8
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m128_cos006.png
+map_Ka m128_cos006.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BF1A0C
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd sea1_28.png
+map_Ka sea1_28.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BF1C4C
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd sea1_29.png
+map_Ka sea1_29.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BF1C60
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd sea1_29.png
+map_Ka sea1_29.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BF1C74
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd sea1_28.png
+map_Ka sea1_28.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BF17E4
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd sea1_29.png
+map_Ka sea1_29.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BF17F8
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd sea1_28.png
+map_Ka sea1_28.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BF19E4
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd sea1_29.png
+map_Ka sea1_29.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BF19F8
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd sea1_29.png
+map_Ka sea1_29.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BFA1AC
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m64_cos009.png
+map_Ka m64_cos009.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BFA1C0
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m64_cos015.png
+map_Ka m64_cos015.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BFA15C
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m256_cos003.png
+map_Ka m256_cos003.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BFA170
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd sea1_27.png
+map_Ka sea1_27.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BFA184
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m128_cos006.png
+map_Ka m128_cos006.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BFA198
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd sea1_35.png
+map_Ka sea1_35.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BFC1C0
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m128_cos008.png
+map_Ka m128_cos008.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BFCC7C
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd sea1_35.png
+map_Ka sea1_35.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BFCC54
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd sea1_27.png
+map_Ka sea1_27.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_BFCC68
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m128_cos006.png
+map_Ka m128_cos006.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_C014B8
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m64_cos003.png
+map_Ka m64_cos003.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_C014CC
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m128_cos006.png
+map_Ka m128_cos006.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_C014E0
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m128_cos006.png
+map_Ka m128_cos006.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_C014F4
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m128_cos006.png
+map_Ka m128_cos006.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_C0151C
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m64_cos001.png
+map_Ka m64_cos001.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_C0156C
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m64_cos003.png
+map_Ka m64_cos003.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_C01508
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m64_cos015.png
+map_Ka m64_cos015.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_C01530
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m64_cos003.png
+map_Ka m64_cos003.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_C01544
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m64_cos003.png
+map_Ka m64_cos003.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_C01558
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m64_cos001.png
+map_Ka m64_cos001.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_C1BE60
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.60 0.60 0.60
+map_Kd m8_shadows.png
+map_Ka m8_shadows.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_C10C24
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd sea1_3.png
+map_Ka sea1_3.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_C10C60
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd sea2_18.png
+map_Ka sea2_18.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_C151AC
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m64_cos001.png
+map_Ka m64_cos001.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_C151C0
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m128_cos006.png
+map_Ka m128_cos006.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_C151D4
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m64_cos001.png
+map_Ka m64_cos001.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_C151E8
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m256_cos003.png
+map_Ka m256_cos003.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_C151FC
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m128_cos006.png
+map_Ka m128_cos006.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_C187A8
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m128_cos026.png
+map_Ka m128_cos026.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_C1524C
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m128_cos006.png
+map_Ka m128_cos006.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_C1529C
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m64_cos003.png
+map_Ka m64_cos003.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_C1876C
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m64_cos007.png
+map_Ka m64_cos007.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_C15198
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m128_cos006.png
+map_Ka m128_cos006.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_C15210
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m128_cos006.png
+map_Ka m128_cos006.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_C15224
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m128_cos006.png
+map_Ka m128_cos006.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_C15238
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m128_cos006.png
+map_Ka m128_cos006.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_C15260
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m128_cos006.png
+map_Ka m128_cos006.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_C15274
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m128_cos006.png
+map_Ka m128_cos006.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_C15288
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m64_cos003.png
+map_Ka m64_cos003.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_C18744
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m128_cos026.png
+map_Ka m128_cos026.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_C18758
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd sea1_25.png
+map_Ka sea1_25.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_C18780
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m32_cos003.png
+map_Ka m32_cos003.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl EmeraldCoast_1:material_C18794
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd m128_cos026.png
+map_Ka m128_cos026.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.06
+newmtl Planten_Sonic:blinn1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Varen_UV.psd
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Planten_Sonic:blinn2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Grotboom_UV.psd
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl Planten_Sonic:blinn3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd GrotBoom_2_Uv.psd
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl blinn2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Texture_Map_Level.psd
+Ni 1.00
+Ks 0.50 0.50 0.50
