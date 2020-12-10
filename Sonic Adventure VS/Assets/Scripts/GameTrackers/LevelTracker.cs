@@ -6,7 +6,7 @@ namespace GameManager
 {
     public class LevelTracker : MonoBehaviour
     {
-        [SerializeField] private GameObject _playerCharacter;
+        [SerializeField] public GameObject _playerCharacter;
         [SerializeField] private Transform _startLocation;
         private CheckPoint _lastCheckPoint;
         public CheckPoint lastCheckPoint{
@@ -22,6 +22,9 @@ namespace GameManager
         
         private string _timeText;
         public string timeText{
+            set{
+                _timeText = timeText;
+            }
             get{
                 return _timeText;
             }
@@ -61,7 +64,7 @@ namespace GameManager
             int seconds = intTime % 60;
             float fraction = fTime * 1000;
             fraction = fraction % 1000;
-            _timeText = string.Format ("{0:00}:{1:00}:{2:000}", minutes, seconds, fraction);
+            _timeText = string.Format ("{0:00} : {1:00} : {2:00}", minutes, seconds, fraction/10);
         }
     }
 }

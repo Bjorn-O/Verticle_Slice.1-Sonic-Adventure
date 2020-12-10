@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!65 &127883028927797543
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1249497705344192423}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 20.740694, y: 4.621919, z: 28.412676}
+  m_Center: {x: 0.0000004768373, y: -4.4705594e-15, z: -1.7606088e-16}
+--- !u!1 &4761019004757108560
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9026554836996038864}
+  - component: {fileID: 8841439329244395224}
+  m_Layer: 0
+  m_Name: DashPanel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9026554836996038864
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4761019004757108560}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 19.96771, y: -25.211967, z: -132.0617}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1881602110014133533}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8841439329244395224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4761019004757108560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4a028c23f0df0240ab254055b406a6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _soundEffect:
+  - {fileID: 0}
+--- !u!1001 &2132017209289601782
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 9026554836996038864}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: daecc4a2a46b32346aea001fd2ab20ba, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: daecc4a2a46b32346aea001fd2ab20ba, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.3643099
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: daecc4a2a46b32346aea001fd2ab20ba, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.36430997
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: daecc4a2a46b32346aea001fd2ab20ba, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.36430994
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: daecc4a2a46b32346aea001fd2ab20ba, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: daecc4a2a46b32346aea001fd2ab20ba, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: daecc4a2a46b32346aea001fd2ab20ba, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: daecc4a2a46b32346aea001fd2ab20ba, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7066531
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: daecc4a2a46b32346aea001fd2ab20ba, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.025326854
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: daecc4a2a46b32346aea001fd2ab20ba, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7066531
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: daecc4a2a46b32346aea001fd2ab20ba, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.025326854
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: daecc4a2a46b32346aea001fd2ab20ba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -4.105
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: daecc4a2a46b32346aea001fd2ab20ba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 270
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: daecc4a2a46b32346aea001fd2ab20ba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: daecc4a2a46b32346aea001fd2ab20ba, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1fc4fa986c68cb143a31c14cc09c0bb5, type: 2}
+    - target: {fileID: 919132149155446097, guid: daecc4a2a46b32346aea001fd2ab20ba, type: 3}
+      propertyPath: m_Name
+      value: Dash Panel FBX
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: daecc4a2a46b32346aea001fd2ab20ba, type: 3}
+--- !u!1 &1249497705344192423 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: daecc4a2a46b32346aea001fd2ab20ba, type: 3}
+  m_PrefabInstance: {fileID: 2132017209289601782}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1881602110014133533 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: daecc4a2a46b32346aea001fd2ab20ba, type: 3}
+  m_PrefabInstance: {fileID: 2132017209289601782}
+  m_PrefabAsset: {fileID: 0}

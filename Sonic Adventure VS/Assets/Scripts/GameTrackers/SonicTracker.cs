@@ -8,7 +8,7 @@ namespace GameManager
     {
         [SerializeField] AudioSource[] _soundEffects;
         [SerializeField] GameObject _droppedRing;
-        [SerializeField] private int _ringCount;
+        private int _ringCount;
         public int ringCount{
             get{
                 return _ringCount;
@@ -23,11 +23,10 @@ namespace GameManager
                 return _ringsToExtraLife;
             }
             set{
-                print(value);
                 _ringsToExtraLife = value;
             }
         }
-        private int _lifeCount;
+        private int _lifeCount = 4;
         public int lifeCount{
             get{
                 return _lifeCount;
@@ -37,13 +36,6 @@ namespace GameManager
             }
         }
         private float _angle;
-        void Update()
-        {
-            if (Input.GetKeyDown(KeyCode.Space))
-            {
-                DropRings(ringCount);
-            }
-        }
         public void setRings(int value)
         {
             ringCount += value;
@@ -57,14 +49,11 @@ namespace GameManager
             {
                 ringsToExtraLife = 0;
             }
-            print(value);
         }
         void SetLife(int value)
         {
-            print("I'm setting life");
             if (value > 0)
             {
-                print("I'm gonna play a jingle");
                 _soundEffects[0].Play();
             }
             lifeCount += value;
@@ -73,7 +62,7 @@ namespace GameManager
                 //Initiate Game-over
             }
         }
-        void GetHurt()
+        public void GetHurt()
         {
             if (ringCount > 0)
             {
@@ -99,6 +88,5 @@ namespace GameManager
                 _angle += launchAngle;
             }
         }
-
     }
 }

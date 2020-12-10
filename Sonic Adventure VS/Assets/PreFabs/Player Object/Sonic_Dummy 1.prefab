@@ -91,9 +91,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8110394551847750579}
   - component: {fileID: 8110394551847750578}
-  - component: {fileID: 8110394551847750576}
   - component: {fileID: 8110394551847750589}
   - component: {fileID: 8110394551847750577}
+  - component: {fileID: 8110394551847750576}
   m_Layer: 0
   m_Name: Sonic_Dummy 1
   m_TagString: Sonic
@@ -135,6 +135,37 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8110394551847750589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8110394551847750588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5634e53d54fd474dbd719cc40c8f90a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 8110394551847750578}
+  _speed: 6
+--- !u!114 &8110394551847750577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8110394551847750588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8f1725b646a6ad4e8f4791b0408560f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _soundEffects:
+  - {fileID: 8110394551847750576}
+  _droppedRing: {fileID: 8429173650727245415, guid: ebae26c34d8edc443b00779fac90cc0e, type: 3}
+  _ringCount: 0
+  _lifeCount: 4
 --- !u!82 &8110394551847750576
 AudioSource:
   m_ObjectHideFlags: 0
@@ -231,36 +262,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &8110394551847750589
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8110394551847750588}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5634e53d54fd474dbd719cc40c8f90a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  controller: {fileID: 8110394551847750578}
-  _speed: 6
---- !u!114 &8110394551847750577
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8110394551847750588}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8f1725b646a6ad4e8f4791b0408560f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _soundEffects:
-  - {fileID: 8110394551847750576}
-  _droppedRing: {fileID: 8429173650727245415, guid: ebae26c34d8edc443b00779fac90cc0e, type: 3}
-  _ringCount: 0
 --- !u!1 &8110394552650411836
 GameObject:
   m_ObjectHideFlags: 0
