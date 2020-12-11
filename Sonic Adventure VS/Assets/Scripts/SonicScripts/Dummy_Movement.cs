@@ -10,8 +10,8 @@ public class Dummy_Movement : MonoBehaviour
 
     void Update()
     {
-        float hor = Input.GetAxisRaw("Horizontal");
-        float ver = Input.GetAxisRaw("Vertical");
+        float hor = Input.GetAxisRaw("Horizontal") * -1;
+        float ver = Input.GetAxisRaw("Vertical") * -1;
         Vector3 dir = new Vector3(hor, 0f, ver);
 
         if (dir.magnitude >= 0.1f)

@@ -17,7 +17,6 @@ namespace GameManager
             _displayLifeText.text = FormatLives(_tracker._playerCharacter.GetComponent<SonicTracker>().lifeCount);
             _displayRingText.text = FormatRings(_tracker._playerCharacter.GetComponent<SonicTracker>().ringCount);
             _displayTimeText.text = _tracker.timeText;
-            Debug.Log(_tracker.timeText);          
         }
         private string FormatRings(int rings)
         {

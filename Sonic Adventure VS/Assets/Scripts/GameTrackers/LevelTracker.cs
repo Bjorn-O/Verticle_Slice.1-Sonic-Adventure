@@ -34,7 +34,7 @@ namespace GameManager
 
         void Start()
         {
-            _playerCharacter = Instantiate(_playerCharacter, _startLocation.position, Quaternion.identity);
+            _playerCharacter = Instantiate(_playerCharacter, new Vector3(_startLocation.position.x, _startLocation.position.y, _startLocation.position.z), _startLocation.rotation);
             //Transition screen
             //Give player control of Sonic
 

@@ -39,12 +39,12 @@ public class SpikeGate : LevelObject_BASE
     private void OnDrop()
     {
         _soundEffect[0].Play();
-        Instantiate(_spikeEffect, _spikeLoc.position, Quaternion.identity);
+        //Particle Effect in the works
+        //Instantiate(_spikeEffect, _spikeLoc.position, Quaternion.identity);
     }
 
     private void ResetGate()
     {
-        print("I'm being reset");
         _anim.ResetTrigger("Gate_Attack");
         _currentTimer = 0;
         _isIdle = true;

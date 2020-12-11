@@ -40,7 +40,6 @@ namespace GameManager
         {
             ringCount += value;
             ringsToExtraLife += value;
-            print(ringsToExtraLife);
             if (ringsToExtraLife >= 100)
             {
                 ringsToExtraLife -= 100;
