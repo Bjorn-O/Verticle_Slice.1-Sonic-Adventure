@@ -26,7 +26,7 @@ namespace GameManager
                 _ringsToExtraLife = value;
             }
         }
-        private int _lifeCount = 4;
+        public int _lifeCount = 4;
         public int lifeCount{
             get{
                 return _lifeCount;
@@ -69,7 +69,7 @@ namespace GameManager
             }
             else
             {
-                SetLife(-1);
+                SetLife(1);
                 //Initiate Respawn
             }
         }
