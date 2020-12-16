@@ -3112,6 +3112,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebd0434b8de07504b923b69cc5bd9ef4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isGrounded: 0
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  _rcLength: 2
+  _rotateSpeed: 5
+  _lockedRotateSpeed: 10
 --- !u!114 &4623380397511837998
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3124,13 +3131,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c51f4f36a6bcb1941a54343f32cf1439, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _accelerateSpeed: 7.5
+  force: 0
+  _accelerateSpeed: 9
   _decelerateSpeed: 100
   _rb: {fileID: 0}
   _dir: {x: 0, y: 0, z: 0}
   _cam: {fileID: 0}
   currentVelocity: 0
-  _maxSpeed: 40
+  _maxSpeed: 60
+  isLocked: 0
 --- !u!1 &182861652714522569
 GameObject:
   m_ObjectHideFlags: 0

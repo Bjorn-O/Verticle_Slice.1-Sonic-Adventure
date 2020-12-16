@@ -10,6 +10,7 @@ public class SonicRotation : MonoBehaviour
     {
         //Snags the character controller that commands the entire character
         _mov = GetComponentInParent<Sonic_Movement_v2>();
+
     }
     void Update()
     {
@@ -19,8 +20,15 @@ public class SonicRotation : MonoBehaviour
     void RotateCharacter()
     {   
         if (_mov._rb.velocity.magnitude > 0)
-        {
-            Vector3 tempVec = transform.position + _mov._cam.TransformVector(_mov._dir);
+        {   
+            Vector3 tempVec;
+            if (!_mov.isLocked)
+            {
+                tempVec = transform.position + _mov._cam.TransformVector(_mov._dir);
+            } else
+            {
+                tempVec = transform.position + transform.forward;
+            }
             transform.LookAt(tempVec);
             transform.localRotation = new Quaternion(0f, transform.localRotation.y, 0f, transform.localRotation.w);
         }

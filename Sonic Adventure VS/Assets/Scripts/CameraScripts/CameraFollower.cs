@@ -16,7 +16,7 @@ public class CameraFollower : MonoBehaviour
 
     void Start()
     {
-        _targetSonic = GameObject.Find("Sonic(Clone)");
+        _targetSonic = GameObject.FindGameObjectWithTag("Sonic");
         _targetRotation = _targetSonic.transform.Find("Forward");
     }
 

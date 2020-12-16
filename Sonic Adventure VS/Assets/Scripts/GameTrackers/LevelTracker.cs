@@ -34,7 +34,7 @@ namespace GameManager
 
         void Start()
         {
-            _playerCharacter = Instantiate(_playerCharacter, new Vector3(_startLocation.position.x, _startLocation.position.y, _startLocation.position.z), _startLocation.rotation);
+            _playerCharacter = GameObject.FindGameObjectWithTag("Sonic");
             //Transition screen
             //Give player control of Sonic
 
