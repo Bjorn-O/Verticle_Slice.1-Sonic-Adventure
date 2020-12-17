@@ -4,12 +4,16 @@ using UnityEngine;
 
 public class Sonic_Movement_v2 : MonoBehaviour
 {
-    private SonicXRotation xRotation;
-    [SerializeField] private float force;
-
-    private float _currentSpeed;
+    [SerializeField] private float downForce;
     [SerializeField] private float _accelerateSpeed;
     [SerializeField] private float _decelerateSpeed;
+    [SerializeField] private float _maxSpeed;
+    [SerializeField] private float _strafeSpeed;
+
+    private SonicXRotation xRotation;
+    private Vector3 _lastPosition;
+
+    private float _currentSpeed;
     private float lockSeconds;
     private bool onLockedByRamp;
 
@@ -17,11 +21,7 @@ public class Sonic_Movement_v2 : MonoBehaviour
     public Vector3 _dir;
     public Transform _cam;
 
-    private Vector3 _lastPosition;
     public float currentVelocity;
-
-    [SerializeField] private float _maxSpeed;
-
     public bool isLocked = false;
 
 
@@ -48,7 +48,7 @@ public class Sonic_Movement_v2 : MonoBehaviour
     {
         if (xRotation.isGrounded && !isLocked)
         {
-            _rb.AddForce(-transform.up * force);
+            _rb.AddForce(-transform.up * downForce);
         }
 
         Vector3 tempVec3;
@@ -61,7 +61,14 @@ public class Sonic_Movement_v2 : MonoBehaviour
         } else
         {
             tempVec3 = _cam.TransformVector(_dir);
-            tempVec3 *= _currentSpeed;
+            if (xRotation.isGrounded)
+            {
+                tempVec3 *= _currentSpeed;
+            }
+            else
+            {
+                tempVec3 *= _strafeSpeed;
+            }
             tempVec3.y = _rb.velocity.y;
         }
         if (!onLockedByRamp)
@@ -88,7 +95,7 @@ public class Sonic_Movement_v2 : MonoBehaviour
 
     private void Accelerator()
     {
-        if (_dir.magnitude > 0 && _currentSpeed <= _maxSpeed)
+        if (_dir.magnitude > 0 && _currentSpeed <= _maxSpeed && xRotation.isGrounded)
         {
             if (_currentSpeed < _maxSpeed / 2)
             {

@@ -20,13 +20,13 @@ public class SonicXRotation : MonoBehaviour
     void Update()
     {
         GroundAllignment();
+        Debug.Log(isGrounded);
     }
 
     void GroundAllignment()
     {
         RaycastHit hit;
-
-        if (Physics.Raycast(transform.position , -transform.up, out hit , _rcLength, layerMask))
+        if (Physics.Raycast(transform.position + transform.up * (_rcLength/2) , -transform.up, out hit , _rcLength, layerMask))
         {
             float speed = _rotateSpeed;
 
