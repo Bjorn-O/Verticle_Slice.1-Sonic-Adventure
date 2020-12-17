@@ -8,6 +8,7 @@ namespace GameManager
     {
         [SerializeField] AudioSource[] _soundEffects;
         [SerializeField] GameObject _droppedRing;
+
         private int _ringCount;
         public int ringCount{
             get{
@@ -36,6 +37,7 @@ namespace GameManager
             }
         }
         private float _angle;
+
         public void setRings(int value)
         {
             ringCount += value;
@@ -49,6 +51,7 @@ namespace GameManager
                 ringsToExtraLife = 0;
             }
         }
+
         void SetLife(int value)
         {
             if (value > 0)
@@ -61,6 +64,7 @@ namespace GameManager
                 //Initiate Game-over
             }
         }
+
         public void GetHurt()
         {
             if (ringCount > 0)
@@ -73,6 +77,7 @@ namespace GameManager
                 //Initiate Respawn
             }
         }
+        
         void DropRings(int ringsDropped)
         {
             if (ringsDropped > 20)
