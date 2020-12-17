@@ -1366,8 +1366,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccbea79100889bd42b6ed3173986a43f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedX: 0.1
-  speedY: 0.1
+  speedX: 1
+  speedY: 1
 --- !u!1001 &643877683
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3069,7 +3069,7 @@ PrefabInstance:
     - target: {fileID: -1504981713932161579, guid: 488ded275a1e6ca42840b853ca715685, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 24550e72a2dc5a748afcd07a174ade06, type: 2}
+      objectReference: {fileID: 2100000, guid: 0df3268891931ea44975c37a49e11237, type: 2}
     - target: {fileID: -927199367670048503, guid: 488ded275a1e6ca42840b853ca715685, type: 3}
       propertyPath: m_Name
       value: water plane
@@ -3153,6 +3153,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 743232024433708168, guid: 9ca1512ae07b1c44bb9b515ab512846b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 136.27002
+      objectReference: {fileID: 0}
+    - target: {fileID: 743232024433708168, guid: 9ca1512ae07b1c44bb9b515ab512846b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -110.63989
+      objectReference: {fileID: 0}
     - target: {fileID: 743232025442023716, guid: 9ca1512ae07b1c44bb9b515ab512846b, type: 3}
       propertyPath: m_Pivot.x
       value: 0
